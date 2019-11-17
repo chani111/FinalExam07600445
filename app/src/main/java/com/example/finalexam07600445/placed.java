@@ -4,17 +4,17 @@ import androidx.room.Dao;
 import androidx.room.Insert;
 import androidx.room.Query;
 
-import com.example.finalexam07600445.db;
+import com.example.finalexam07600445.regisitem;
 
 import java.util.List;
 
 @Dao
 public interface placed {
-    @Query("SELECT * FROM place")
-    List<db>getAllPlace();
+    @Query("SELECT * FROM item")
+    List<regisitem>getAll();
 
     @Insert
-    void insertPlace(db place);
+    void insert(regisitem place);
 
 
 }

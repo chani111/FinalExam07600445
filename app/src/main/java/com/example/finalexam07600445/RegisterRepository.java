@@ -66,7 +66,7 @@ public class RegisterREpository {
         @Override
         protected Void doInBackground(regisitem... ledgerItems) {
             appdatabase db = appdatabase.getInstance(mContext);
-            db.placeDao().insert(regisitem[0]);
+            db.placeDao().insert([0]);
             return null;
         }
 

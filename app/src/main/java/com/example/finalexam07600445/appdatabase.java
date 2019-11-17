@@ -5,10 +5,10 @@ import androidx.room.Database;
 import androidx.room.Room;
 import androidx.room.RoomDatabase;
 
-import com.example.finalexam07600445.db;
+import com.example.finalexam07600445.regisitem;
 
 
-@Database(entities = {db.class}, exportSchema = false, version = 1)
+@Database(entities = {regisitem.class}, exportSchema = false, version = 1)
 public abstract class appdatabase extends RoomDatabase {
 
     private static final String DB_NAME = "place.db";
